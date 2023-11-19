@@ -80,6 +80,12 @@ padding: 20px;
 
  /*SECONDA SEZIONE*/
 
+
+ .direction-container{
+    padding: 30px;
+    color: white;
+ }
+
  .direction-card-1-img > img{
      width: 100%;
  }
@@ -121,15 +127,102 @@ padding: 20px;
     width: 100%;
  }
 
+ /*QUARTA SEZIONE*/
+
+.benefits-main-container{
+    background-color: #9792E4;
+    padding: 20px;
+ }
+
+.benefit-card{
+    background-color: white;
+    color: #949494;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+
+.benefit-card > h2,h3{
+    color: #9792E4;
+ }
+
+ .benefit-card > button{
+    background-color: #9792E4;
+    color: white;
+ }
+
+/*QUINTA SEZIONE*/
+
+.about-us-container{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.about-us-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-us-img > img{
+    width: 100%;
+}
+
+.about-us-example-container > button{
+    background-color: #9792E4;
+    color: white;
+}
+
+/*SESTA SEZIONE*/
+
+.tail{
+    background-color: #9792E4;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.tail > h2{
+    color: #FDC15F;
+    font-size: 4em;
+    text-align: center;
+}
+
+.tail > h3{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.tail > button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: #9792E4;
+}
+
+.tail > *{
+    margin-top: 15px;
+}
+
 /*
     FOOTER
 */
+
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+}
+
+footer > div{
+    margin-bottom: 40px;
+}
 
 /*
     MOBILE
 */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     /*
     MOBILE-HEADER
 */
@@ -140,12 +233,121 @@ padding: 20px;
     
 }
 
-
 /*
-    MOBILE-MAIN
+    TABLET
 */
 
-/*
-    MOBILE-FOOTER
-*/
 
+@media only screen and (max-width: 768px) {
+
+    /*PRIMA SEZIONE*/
+
+    .info-main{
+        padding: 30px 50px;
+    }
+
+    .card-first{
+        display: inline-block;
+        width: 20%;
+        padding-top: 30px;
+    }
+
+    .card{
+        display: inline-block;
+        width: 20%;
+        padding-top: 30px;
+        padding-bottom: 200px;
+    }
+
+    /*QUARTA SEZIONE*/
+
+    .benefit-card{
+        display: inline-block;
+        width: 40%;
+    }
+
+    /*QUINTA SEZIONE*/
+
+    .about-us-description{
+        display: inline-block;
+        width: 40%;
+    }
+
+    .about-us-example{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1246px){
+    /*PRIMA SEZIONE*/
+
+    .info-main{
+        padding: 30px 50px;
+    }
+
+    .card-first{
+        display: inline-block;
+        width: 20%;
+        padding-top: 30px;
+    }
+
+    .card{
+        display: inline-block;
+        width: 20%;
+        padding-top: 30px;
+        padding-bottom: 200px;
+    }
+
+    /*SECONDA SEZIONE*/
+
+    .direction-container{
+        padding: 100px 400px;
+    }
+
+    /*TERZA SEZIONE*/
+
+    .partners-container{
+        padding: 100px 300px;
+    }
+
+    .partner-card-img{
+        width: 60%;
+        margin-right: 20px;
+    }
+    .partner-card{
+        display: flex;
+        padding: 30px;
+    }
+
+    /*QUARTA SEZIONE*/
+
+    .benefits-main-container{
+        padding: 100px 200px;
+    }
+    .benefit-card{
+        display: inline-block;
+        width: 20%;
+        padd
+    }
+
+    /*QUINTA SEZIONE*/
+
+    .about-us-container{
+        padding: 40px 200px;
+    }
+    .about-us-description{
+        display: inline-block;
+        width: 40%;
+    }
+
+    .about-us-example{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        p
+
+    
+}
