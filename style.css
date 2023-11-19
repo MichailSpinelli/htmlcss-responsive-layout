@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+    GENERAL 
+*/
+
+
+
+/*
+    HEADER
+*/
+
+.header-container{
+    background-color: #0084FD;
+    color: white;
+}
+
+/*
+    MAIN
+*/
+
+.direction-container{
+    background-color: #9792E4;
+}
+
+.benefits-main-container{
+    background-color: #9792E4;
+}
+
+/*PRIMA SEZIONE*/
+
+.header-container{
+padding: 20px;
+}
+
+.card-first{
+    background-color: #B5DDFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-first > p{
+    color: #688093;
+}
+
+.card-first > h4{
+    color: #349DFD;
+}
+
+.card-first > button{
+    background-color: #0084FD;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #B5DDFF;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card > p{
+    color: #688093;
+}
+
+.card > h4{
+    color: #349DFD;
+}
+
+.phone-img > img{
+    width: 100%;
+    margin-top: 20px;
+ }
+
+ /*SECONDA SEZIONE*/
+
+ .direction-card-1-img > img{
+     width: 100%;
+ }
+
+ .direction-card-2{
+    padding: 20px;
+ }
+
+ .direction-card-2-img{
+     padding: 20px;
+     border-radius: 20px;
+     background-color: white;
+ }
+ 
+ .direction-card-2-img > img{
+     width: 100%;
+     
+ }
+
+ /*TERZA SEZIONE*/
+.partners-container{
+    
+    padding: 30px;
+}
+
+ .partner-card{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #9792E4;
+    margin-top: 20px;
+    color: white;
+ }
+
+ .partner-card-img{
+    border-radius: 50%;
+ }
+
+.partner-card-img > img{
+    width: 100%;
+ }
+
+/*
+    FOOTER
+*/
+
+/*
+    MOBILE
+*/
+
+@media only screen and (max-width: 600px) {
+    /*
+    MOBILE-HEADER
+*/
+    .info-main{
+        padding: 30px 50px;
+    }
+
+    
+}
+
+
+/*
+    MOBILE-MAIN
+*/
+
+/*
+    MOBILE-FOOTER
+*/
+
